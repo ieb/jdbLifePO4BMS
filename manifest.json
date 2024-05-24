@@ -1,0 +1,20 @@
+{
+    "lang": "en-us",
+    "name": "Lifepo4 app",
+    "short_name": "Lifepo4 Monitor",
+    "description": "Lifepo4 Monitor",
+    "start_url": "/lifepo4/",
+    "scope": "/lifepo4/",
+    "id": "/lifepo4/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/lifepo4/icon512.png",
+            "sizes": "512x512",
+            "purpose": "any"
+        }
+    ]
+}
