@@ -1,6 +1,10 @@
 /*jshint node:false */
 "use strict";
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/lifepo4/worker.js', { scope: './', type: 'module' });
+}
+
 
 window.addEventListener("load", () => {
     const bleReader = new JDBBMSReader();
